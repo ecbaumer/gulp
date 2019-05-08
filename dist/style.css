@@ -1,3 +1,8 @@
+::root {
+  --blue: blue;
+  --red: red;
+  --green: green; }
+
 div {
   display: block; }
   div:hover {
@@ -19,3 +24,6 @@ section {
   height: 300px;
   background-color: red;
   width: 90%; }
+
+h1 {
+  color: blue; }
