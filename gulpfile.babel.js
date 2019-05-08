@@ -62,7 +62,7 @@ gulp.task('default', series('clean', parallel('scss', 'js')));
  * before it starts watching. Otherwise, you'll have race conditions.
  */
 gulp.task('watch', series('default', (done) => {
-  watch(['app/*.scss', 'app/js/**/*.js'], series('clean', parallel('scss', 'js')));
+  watch(['app/**/*.scss', 'app/js/**/*.js'], series('clean', parallel('scss', 'js')));
 
   done();
 }));
