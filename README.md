@@ -4,13 +4,13 @@ This is an example project for getting started with using Gulp 4 and a few other
 
 ## Getting Started
 
-_This assumes you have installed gulp globally. To do so follow the command below._**
+_This assumes you have installed gulp globally. To do so follow the command below._
 
 ```
 npm install -g gulp
 ```
 
-_You can also just run gulp locally._**
+_You can also just run gulp locally._
 
 ```
 ./node_modules/.bin/gulp
