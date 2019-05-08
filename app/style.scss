@@ -1,0 +1,27 @@
+div {
+  display: block;
+  &:hover{
+    background-color: red;
+  }
+}
+
+.thing{
+  color: red;
+  position: relative;
+  &:after{
+    position: absolute;
+    top: 10px; 
+    content: '';
+    height: 10px;
+    background-color: purple;
+    width: 100px;
+    z-index: 10;
+
+  }
+}
+
+section{
+  height: 300px;
+  background-color: red;
+  width: 90%;
+}
